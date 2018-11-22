@@ -11,8 +11,8 @@ var port = 8080
 var counter = 0
 
 app.get('/', (req, res) => {
-    console.log(req.url)
-    console.log(req.query.url)
+    // console.log(req.url)
+    // console.log(req.query.url)
     var url = req.query.url
     if (url) {
         console.log(url)
